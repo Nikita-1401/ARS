@@ -5,8 +5,8 @@ import File from './components/File'
  const App = () => {
    return (
       <>
-      {/* <Form/> */}
-      <File/>
+      <Form/> 
+      {/* <File/>  */}
       </>
    )
  }
