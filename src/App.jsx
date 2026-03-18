@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import Form from './components/Form';
-import Dashboard from './components/dashboard';
+import Dashboard from './components/Dashboard1';
 import PaymentPage from './components/PaymentPage';
  
 

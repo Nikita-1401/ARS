@@ -1,6 +1,6 @@
 import React from "react";
 
-const dashboard = () => {
+const Dashboard = () => {
   // Sample data for demonstration
   const playerData = {
     personalInfo: {
@@ -380,4 +380,4 @@ const dashboard = () => {
   );
 };
 
-export default dashboard;
+export default Dashboard;
