@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react
 import Form from './components/Form';
 import Dashboard from './components/dashboard';
 import PaymentPage from './components/PaymentPage';
+ 
 
 // Navigation component
 const Navigation = () => {
