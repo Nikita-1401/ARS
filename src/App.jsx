@@ -86,12 +86,14 @@
 import React from 'react'
 import Watch from './components/Watch'
 import Section from './components/Section'
+import Tracker from './components/Tracker'
 
 const App = () => {
   return (
      <>
      <Watch/>
      <Section/>
+     <Tracker/>
      </>
   )
 }
