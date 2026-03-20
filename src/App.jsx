@@ -87,6 +87,7 @@ import React from 'react'
 import Watch from './components/Watch'
 import Section from './components/Section'
 import Tracker from './components/Tracker'
+import Blog from './components/Blog'
 
 const App = () => {
   return (
@@ -94,6 +95,7 @@ const App = () => {
      <Watch/>
      <Section/>
      <Tracker/>
+     <Blog/>
      </>
   )
 }
