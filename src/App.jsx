@@ -83,21 +83,36 @@
 
 
 
-import React from 'react'
-import Watch from './components/Watch'
-import Section from './components/Section'
-import Tracker from './components/Tracker'
-import Blog from './components/Blog'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Watch from './components/Watch';
+import Section from './components/Section';
+import Tracker from './components/Tracker';
+import Blog from './components/Blog';
+import Detail from './components/Detail';
 
 const App = () => {
   return (
-     <>
-     <Watch/>
-     <Section/>
-     <Tracker/>
-     <Blog/>
-     </>
-  )
-}
+    <Router>
+      <Routes>
+        {/* Home Page: Contains everything in sequence */}
+        <Route 
+          path="/" 
+          element={
+            <>
+              <Watch />
+              <Section />
+              <Tracker />
+              <Blog/>
+            </>
+          } 
+        />
 
-export default App
+         
+        <Route path="/blog/:id" element={<Detail/>} />
+      </Routes>
+    </Router>
+  );
+};
+
+export default App;
