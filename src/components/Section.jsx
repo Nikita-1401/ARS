@@ -35,7 +35,7 @@ const Section = () => {
           <span className="text-[#C5A059] font-bold tracking-[0.3em] uppercase text-xs mb-4 block">
             Hardware
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold text-emerald-900 mb-6 leading-tight">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#747c27] mb-6 leading-tight">
             Lightweight Wearables.<br /> Heavyweight Insights.
           </h2>
           <p className="text-gray-500 text-lg mb-8 leading-relaxed max-w-xl">
@@ -54,7 +54,7 @@ const Section = () => {
         <div className="w-full md:w-1/2">
           <div className="w-full aspect-video overflow-hidden rounded-2xl shadow-lg">
             <img 
-              src="/watch2.jpeg" 
+              src="/watch.jpeg" 
               alt="Hardware Tracker" 
               className="w-full h-full object-cover"
             />
@@ -73,7 +73,7 @@ const Section = () => {
         <div className="w-full md:w-1/2 order-2 md:order-1">
           <div className="w-full aspect-video overflow-hidden rounded-2xl shadow-lg">
             <img 
-              src="/watch.jpeg" 
+              src="/watch2.jpeg" 
               alt="Software Dashboard" 
               className="w-full h-full object-cover"
             />
@@ -84,7 +84,7 @@ const Section = () => {
           <span className="text-[#C5A059] font-bold tracking-[0.3em] uppercase text-xs mb-4 block">
             Software
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold text-emerald-900 mb-6 leading-tight">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#747c27] mb-6 leading-tight">
             Coach-Friendly Tools.<br /> Instant Impact.
           </h2>
           <p className="text-gray-500 text-lg mb-8 leading-relaxed max-w-xl">
@@ -105,7 +105,7 @@ const Section = () => {
 
 const FeatureItem = ({ title, desc }) => (
   <div className="border-l-2 border-[#C5A059]/40 pl-6 hover:border-emerald-700 transition-colors">
-    <h4 className="text-emerald-900 font-bold text-lg">{title}</h4>
+    <h4 className="text-[#747c27] font-bold text-lg">{title}</h4>
     <p className="text-gray-400 text-sm">{desc}</p>
   </div>
 );

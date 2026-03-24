@@ -32,7 +32,7 @@ const Watch = () => {
 
         {/* Action Buttons (Desktop and Mobile) */}
         <div className="ml-auto flex items-center gap-4">
-          <button className="bg-[#1B5E20] hover:bg-emerald-900 text-white px-4 md:px-8 py-2 md:py-3 rounded-sm text-xs md:text-base font-bold transition">
+          <button className="bg-[#747c27] hover:bg-emerald-900 text-white px-4 md:px-8 py-2 md:py-3 rounded-sm text-xs md:text-base font-bold transition">
             Get in Touch
           </button>
 
@@ -74,7 +74,7 @@ const Watch = () => {
             <a href="#about" onClick={() => setIsOpen(false)}>About ARS</a>
           </nav>
 
-          <button className="mt-auto bg-[#1B5E20] text-white py-4 rounded-sm font-bold">
+          <button className="mt-auto bg-[#747c27] text-white py-4 rounded-sm font-bold">
             Get in Touch
           </button>
         </div>
@@ -103,7 +103,7 @@ const Watch = () => {
       </section>
 
       {/* Sub-Nav Bar */}
-      <section className="bg-[#1B5E20] py-4 border-b border-emerald-800 overflow-x-auto">
+      <section className="bg-[#747c27] py-4 border-b border-emerald-800 overflow-x-auto">
         <div className="container mx-auto px-6 md:px-12 flex space-x-8 md:space-x-12 whitespace-nowrap">
           <button className="text-white font-bold tracking-widest text-[10px] md:text-sm uppercase border-b-2 border-[#C5A059] pb-1">
             Overview
@@ -117,7 +117,7 @@ const Watch = () => {
       {/* Details Section */}
       <section className="bg-white py-12 md:py-20 px-6 md:px-12">
         <div className="container mx-auto">
-          <h2 className="text-2xl md:text-4xl font-bold text-emerald-900 mb-4 leading-tight">
+          <h2 className="text-2xl md:text-4xl font-bold text-[#747c27] mb-4 leading-tight">
             Built for Movement,<br className="md:hidden" /> Built for Scale.
           </h2>
           <p className="text-gray-600 max-w-2xl text-sm md:text-base leading-relaxed">

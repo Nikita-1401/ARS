@@ -27,7 +27,7 @@ const Tracker = () => {
           {/* RIGHT SIDE IMAGE */}
           <div className="hidden lg:flex justify-end w-[30%]">
             <img
-              src="Tracker.jpeg"
+              src="Ars1.jpg"
               alt="tracker"
               className="h-64 xl:h-72 w-auto object-contain"
             />
@@ -41,9 +41,9 @@ const Tracker = () => {
           {/* Heart Rate */}
           <Card>
             <div className="flex justify-between items-start mb-4">
-              <h3 className="font-bold text-xl text-[#064E3B]">Heart Rate</h3>
+              <h3 className="font-bold text-xl text-[#747c27]">Heart Rate</h3>
               <div className="text-right">
-                <p className="text-4xl font-bold text-[#064E3B]">78</p>
+                <p className="text-4xl font-bold text-[#747c27]">78</p>
                 <p className="text-xs text-gray-400">bpm</p>
               </div>
             </div>
@@ -51,11 +51,11 @@ const Tracker = () => {
             <div className="grid grid-cols-2 gap-4 mt-6">
               <div>
                 <p className="text-sm text-gray-500">Resting</p>
-                <p className="text-2xl font-bold text-[#064E3B]">62</p>
+                <p className="text-2xl font-bold text-[#747c27]">62</p>
               </div>
               <div>
                 <p className="text-sm text-gray-500">Peak</p>
-                <p className="text-2xl font-bold text-[#064E3B]">135</p>
+                <p className="text-2xl font-bold text-[##747c27]">135</p>
               </div>
             </div>
 
@@ -65,16 +65,16 @@ const Tracker = () => {
           {/* HRV */}
           <Card>
             <div className="flex justify-between items-start mb-4">
-              <h3 className="font-bold text-xl text-[#064E3B]">HRV Analysis</h3>
+              <h3 className="font-bold text-xl text-[#747c27]">HRV Analysis</h3>
               <div className="text-right">
-                <p className="text-4xl font-bold text-[#064E3B]">65</p>
+                <p className="text-4xl font-bold text-[#747c27]">65</p>
                 <p className="text-xs text-gray-400">ms</p>
               </div>
             </div>
 
             <div className="mt-6 flex justify-between">
               <p className="text-sm text-gray-500">Baseline</p>
-              <p className="text-xl font-bold text-[#064E3B]">58 ms</p>
+              <p className="text-xl font-bold text-[#747c27]">58 ms</p>
             </div>
 
             <div className="h-32 mt-6 bg-gradient-to-t from-[#064E3B]/20 to-transparent rounded-lg"></div>
@@ -86,8 +86,8 @@ const Tracker = () => {
             {/* Sleep */}
             <Card>
               <div className="flex justify-between items-center mb-4">
-                <h3 className="font-bold text-xl text-[#064E3B]">Sleep Analysis</h3>
-                <p className="text-3xl font-bold text-[#064E3B]">7h 45m</p>
+                <h3 className="font-bold text-xl text-[#747c27]">Sleep Analysis</h3>
+                <p className="text-3xl font-bold text-[#747c27]">7h 45m</p>
               </div>
 
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-4">
@@ -112,7 +112,7 @@ const Tracker = () => {
 
             {/* Recovery */}
             <Card className="bg-gradient-to-br from-[#064E3B]/5 to-[#C5A059]/5">
-              <h3 className="font-bold text-xl text-[#064E3B] mb-4">Recovery Score</h3>
+              <h3 className="font-bold text-xl text-[#747c27] mb-4">Recovery Score</h3>
 
               <div className="flex flex-col md:flex-row items-center gap-6">
                 <div className="flex-1 space-y-4 w-full">
@@ -147,7 +147,7 @@ const SummaryCard = ({ icon, title, value, unit, bg }) => (
     <div className="text-3xl sm:text-4xl">{icon}</div>
     <div>
       <h4 className="text-sm text-gray-600">{title}</h4>
-      <p className="text-2xl sm:text-3xl font-bold text-[#064E3B]">{value}</p>
+      <p className="text-2xl sm:text-3xl font-bold text-[#747c27]">{value}</p>
       <p className="text-xs text-gray-400">{unit}</p>
     </div>
   </div>
@@ -167,7 +167,7 @@ const Metric = ({ label, value, unit, subtext }) => (
       <p className="text-xs text-gray-400">{subtext}</p>
     </div>
     <div>
-      <span className="font-bold text-[#064E3B]">{value}</span>
+      <span className="font-bold text-[#747c27]">{value}</span>
       <span className="text-xs ml-1">{unit}</span>
     </div>
   </div>
@@ -193,7 +193,7 @@ const RecoveryCircle = ({ score }) => {
         strokeLinecap="round"
         transform="rotate(-90 18 18)"
       />
-      <text x="18" y="20" textAnchor="middle" className="text-[8px] fill-[#064E3B] font-bold">
+      <text x="18" y="20" textAnchor="middle" className="text-[8px] fill-[#747c27] font-bold">
         {score}
       </text>
     </svg>

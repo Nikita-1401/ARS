@@ -1,0 +1,109 @@
+[
+  {
+    "id": 1,
+    "slug": "Event",
+    "title": "Champion Factory",
+    "category": "Team Sport",
+    "image": "/Gaya.jpeg",
+    "mediaType": "image",
+    "videoUrl":"/gaya.mp4",
+    "author": "Coach Aryan",
+    "readTime": "6 min read",
+    "body": [
+      { "type": "text", "value": "Adding to the vibrant cricketing landscape of Gaya, ARS Kreedshala is making a significant impact with its structured cricket coaching programs." },
+      { "type": "text", "value": "The academy focuses on holistic player development, combining technical skill refinement with physical conditioning and match awareness. Under the guidance of experienced coaches, trainees are put through rigorous practice routines that cover batting technique, bowling accuracy, fielding drills, and tactical understanding of the game." },
+      { "type": "text", "value": "The training events at ARS Kreedshala have been drawing enthusiastic participation from across the city, with players ranging from budding school-level cricketers to those aspiring for district and state-level selection. The academy’s disciplined yet encouraging environment has made it a respected name in Gaya’s cricket coaching circuit." },
+      { "type": "text", "value": "The academys approach goes beyond basic coaching, offering a comprehensive curriculum where young cricketers are immersed in rigorous skill-based training sessions covering batting technique, bowling precision, and advanced fielding drills under the watchful guidance of experienced mentors. Each training event at ARS Kreedshala is meticulously designed to blend technical refinement with physical conditioning, ensuring that players build the stamina, agility, and mental resilience required to excel in competitive cricket. Beyond individual skills, the academy places strong emphasis on match awareness through regular practice matches and situational simulations, allowing trainees to experience real-game pressure and develop sharp decision-making abilities. This structured methodology has made ARS Kreedshala a preferred destination for aspiring cricketers across Gaya—from young beginners taking their first steps in the sport to serious players aiming for district and state-level selection. By fostering a disciplined yet encouraging environment, ARS Kreedshala continues to play a pivotal role in shaping the next generation of cricketing talent, contributing significantly to the citys growing reputation as a hub for quality sports education." }
+       
+    ],
+    "sidebarImages": [
+      { "src": "/Gaya3.jpeg", "caption": "Batting Stance" },
+      { "src": "/Gaya2.jpeg", "caption": "Court Vision" },
+      { "src": "/Gaya3.jpeg", "caption": "Court Vision" }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "cricket-pro",
+    "title": "Cricket",
+    "category": "Team Sport",
+    "image": "/Cricket.jpg",
+    "mediaType": "image",
+    "videoUrl": null,
+    "author": "Ars Coach Steven",
+    "readTime": "10 min read",
+    "body": [
+      { "type": "text", "value": "From batting techniques to bowling strategies, become a cricket pro with professional coaching." },
+      { "type": "text", "value": "Understanding the pitch conditions and adjusting your stance can change the entire game." }
+    ],
+    "sidebarImages": [
+      { "src": "https://images.unsplash.com/photo-1531415074968-036ba1b575da", "caption": "Batting Stance" }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "gym-swimming",
+    "title": "Gym Swimming",
+    "category": "Fitness",
+    "image": "/gym.jpg",
+    "mediaType": "image",
+    "videoUrl": null,
+    "author": "Coach Sarah",
+    "readTime": "7 min read",
+    "body": [
+      { "type": "text", "value": "Combine strength training with aquatic workouts for full-body fitness and endurance." }
+    ],
+    "sidebarImages": []
+  },
+  {
+    "id": 4,
+    "slug": "football-tactics",
+    "title": "Football",
+    "category": "Team Sport",
+    "image": "/football.jpg",
+    "mediaType": "video",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "author": "Ars Coach Steven",
+    "readTime": "8 min read",
+    "body": [
+      { "type": "text", "value": "Develop your footwork, tactical awareness, and teamwork skills on the pitch." },
+      { "type": "text", "value": "Modern football is about high-pressing and quick transitions from defense to attack." }
+    ],
+    "sidebarImages": [
+      { "src": "https://images.unsplash.com/photo-1574629810360-7efbbe195018", "caption": "Formation Analysis" },
+      { "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974", "caption": "Speed & Agility" }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "yoga-sessions",
+    "title": "Yoga",
+    "category": "Exercise",
+    "image": "/Yoga.jpg",
+    "mediaType": "image",
+    "videoUrl": null,
+    "author": "Trainer Elena",
+    "readTime": "12 min read",
+    "body": [
+      { "type": "text", "value": "Let you relax all you muscles and mind with the Yoga sessions." }
+    ],
+    "sidebarImages": []
+  },
+  {
+    "id": 6,
+    "slug": "badminton-agility",
+    "title": "Badminton Agility",
+    "category": "Racket Sport",
+    "image": "/Badminton.jpg",
+    "mediaType": "image",
+    "videoUrl": null,
+    "author": "Coach Lin",
+    "readTime": "5 min read",
+    "body": [
+      { "type": "text", "value": "Improve your agility, reflexes, and smashing power on the badminton court." }
+    ],
+    "sidebarImages": [
+      { "src": "https://images.unsplash.com/photo-1626225967045-9410dd99fa70", "caption": "Reflex Drill" }
+    ]
+  }
+]
